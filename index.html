@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDO</title>
+    <link rel="stylesheet" href="scss/main.css">
+</head>
+<body >
+    <section class="todo">
+        <div class="container">
+            <div class="todo__header">
+                <h1 class="todo__title">Todo List</h1>
+                <div class="todo-clock">
+                    <div class="date"></div>
+                    <div class="time"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card__body">
+                    <form id="form">
+                        <input type="text" class="form-control" id="taskInput" placeholder="Текст задачи" required>
+                        <button type="submit" class="todo__button">Add ToDo</button>
+                    </form>
+                    
+                </div>
+            </div>
+            <div class="todo-list ">
+                <ul id="tasksList" class="list-group">
+    
+                     <!-- <li id="emptyList" class="list-group-item empty-list">
+                        <p class="task-title">No todos!</p>
+                    </li>    -->
+                    <!--      
+                     <li class="list-group-item ">
+                        <span class="task-title">Купить молоко</span>
+                        <div class="task-item__buttons">
+                            <button type="button" data-action="done" class="btn-action">
+                                <img src="./img/tick.svg" alt="Done" width="18" height="18">
+                            </button>
+                            <button type="button" data-action="delete" class="btn-action">
+                                <img src="./img/cross.svg" alt="Done" width="18" height="18">
+                            </button>
+                        </div>
+                    </li>  
+                    <li class="list-group-item ">
+                        <span class="task-title">Купить молоко</span>
+                        <div class="task-item__buttons">
+                            <button type="button" data-action="done" class="btn-action">
+                                <img src="./img/tick.svg" alt="Done" width="18" height="18">
+                            </button>
+                            <button type="button" data-action="delete" class="btn-action">
+                                <img src="./img/cross.svg" alt="Done" width="18" height="18">
+                            </button>
+                        </div>
+                    </li>    -->
+    
+                </ul>
+            </div>
+            <!-- //List of tasks -->
+        </div>
+    </section>
+    <script src="main.js"></script>
+    <script src="data.js"></script>
+</body>
+</html>

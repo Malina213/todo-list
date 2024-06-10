@@ -1,0 +1,22 @@
+.todo__header{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.todo__title{
+  text-align: center;
+  color: var(--color-white);
+  font-size: 39px;
+  font-weight: 900;
+  line-height: 37px;
+ 
+}
+.todo-clock {
+  color: var(--color-neutral-light);
+  display:  inline-flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 10px;
+  backdrop-filter: blur(80px) brightness(1.25);
+}

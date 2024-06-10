@@ -1,0 +1,57 @@
+.card{
+    align-items: center;
+	backdrop-filter: blur(80px) brightness(1.25);
+	border-radius: 8px;
+	box-shadow: 0 8px 16px -12px rgba(var(--color-black), 0.5);
+    border-top: 1px solid rgba(var(--color-white), 0.05);
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 24px;
+    &__body{
+        position: relative;
+        width: 100%;
+        padding: 32px 24px;
+        border-radius: 10px;
+    }
+}
+
+.form-control{
+    background: var(--color-neutral-dark);
+	border-radius: 40px;
+	border: 1px solid transparent;
+	box-shadow: inset 0 2px 4px rgba(var(--color-black), 0.25);
+	color: var(--color-white);
+	display: block;
+	font-size: 16px;
+	height: 100%;
+	outline: none;
+	padding: 14px 120px 17px 16px;
+	width: 100%;
+    &::placeholder {
+		color: var(--color-neutral-light);
+		font-style: italic;
+	}
+}
+
+.todo__button{
+    background-color: var(--color-neutral);
+	color: var(--color-neutral-light);
+	border: none;
+	border-radius: 40px;
+	box-shadow: 0 4px 8px -6px rgba(var(--color-black), 0.5);
+    border-top: 1px solid rgba(var(--color-white), 0.05);
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	height: 38px;
+	padding: 0 12px;
+	position: absolute;
+	right: 40px;
+	top: 39px;
+    &:hover{
+        border: 1px solid white;
+        color: var(--color-white); 
+		
+    }
+}
+

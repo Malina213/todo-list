@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html,body{
+    background-color: var(--color-neutral-dark);
+    background: linear-gradient(var(--color-neutral), var(--color-neutral-dark));
+    color: var(--color-white);
+    font-family: "Lato",sans-serif;
+    height: 100vh;
+     
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px;
+}
+.none{
+    display: none !important;
+}
